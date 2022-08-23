@@ -3,13 +3,15 @@ const Mealsitem=props=>{
     const price=`$${props.price.toFixed(2)}`;
 return(
     <li>
-<div>
+< div className="">
+
 <h3>{props.name}</h3>
+
 <div>{props. descripchion}</div>
-<div>{props.price}</div>
+<div className=" text-red-600 bold">{props.price}</div>
 
 </div>
-<div className=" text-right"> <Mealsitemform/> </div>
+<div className=" text-right "> <Mealsitemform/> </div>
 </li>
 )
 

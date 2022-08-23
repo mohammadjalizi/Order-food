@@ -27,7 +27,7 @@ price:22.29,
 ]
 
 const Avalbile=props=>{
-const mealis=DUmmy.map(meal=><Mealsitem key={meal.id} na={meal.name} descripchion={meal.descripchion} price={meal.price}/>)
+const mealis=DUmmy.map(meal=><Mealsitem key={meal.id} name={meal.name} descripchion={meal.descripchion} price={meal.price}/>)
 return(
     <Card>  
 
