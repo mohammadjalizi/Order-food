@@ -1,7 +1,8 @@
+import Input from "../../UI/Input";
 const Mealsitemform=props=>{
 return <from>
 
-<input/>
+<Input/>
 <button>+Add</button>
 
 </from>
