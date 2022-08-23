@@ -1,5 +1,5 @@
 import Card from "../Cart/Card"
-
+import Mealsitem from "./Mealsitem/Mealsitem"
 const DUmmy=[
 {
 id:'m1',
@@ -9,14 +9,14 @@ price:22.29,
 
 },
 {
-    id:'m2',
+   id:'m2',
     name:'sushi',
     descripchion:'fineshedprice',
     price:22.29,
     
     },
     {
-        id:'m3',
+       id:'m3',
         name:'sushi',
         descripchion:'fineshedprice',
         price:22.29,
@@ -27,7 +27,7 @@ price:22.29,
 ]
 
 const Avalbile=props=>{
-const mealis=DUmmy.map(meal=><li>{meal.name}</li>)
+const mealis=DUmmy.map(meal=><Mealsitem key={meal.id} na={meal.name} descripchion={meal.descripchion} price={meal.price}/>)
 return(
     <Card>  
 
