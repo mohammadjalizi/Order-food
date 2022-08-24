@@ -5,7 +5,7 @@ const Header=()=>{
 
 return(
     <Fragment>  
-    <header className=" flex justify-between bg-red-300">
+    <header className=" flex justify-between bg-red-300 m-0">
     <h1>ReactMeals</h1>
     <Headercartbutton/>
         </header>
