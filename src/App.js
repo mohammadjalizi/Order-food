@@ -1,18 +1,22 @@
-import Meals from './Meals/Meals';
-import './App.css';
-import Header from './LAYOUT/Header';
-import Cart from './Cart/Cart';
-function App() {
-  return (
-    <div className="App">
-<Header/>
-<Cart/>
+import Header from "./Header";
 
-<main>
-<Meals/>
-  
-</main>
-    </div>
+
+
+const App=()=> {
+
+
+  return (
+   <>
+<Header/>
+<div>
+
+<h1> this is tag prsddaa </h1>
+<h1> this is tag prsddaa </h1>
+<h1> this is tag prsddaa </h1> <h1> this is tag prsddaa </h1>
+
+</div>
+   </>
+
   );
 }
 
