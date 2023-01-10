@@ -1,20 +1,15 @@
+import { useState } from "react";
 import Header from "./Header";
-
+import Compennet4 from "./Compennet4";
 
 
 const App=()=> {
-
+const[name,setname]=useState("sokanakadim");
 
   return (
    <>
 <Header/>
-<div>
-
-<h1> this is tag prsddaa </h1>
-<h1> this is tag prsddaa </h1>
-<h1> this is tag prsddaa </h1> <h1> this is tag prsddaa </h1>
-
-</div>
+<Compennet4 nameprop={name} />
    </>
 
   );
