@@ -1,4 +1,4 @@
-import img1 from '../Data/img/card1.jpg'
+import img1 from '../Data/img/pexels-fauxels-3183198.jpg'
 import img2 from '../Data/img/card2.jpg'
 import img3 from '../Data/img/card3.jpg'
 import img4 from '../Data/img/card4.jpg'
